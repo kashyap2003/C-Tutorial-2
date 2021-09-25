@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    char characterName[] = "John";
+    int characterAge = 35;
+    printf("There once was a man name %s\n", characterName);
+    printf("he was %d years old.\n", characterAge);
+
+    characterAge = 20;
+    printf("He really liked the name %s\n", characterName);
+    printf("but did not like being %d\n", characterAge);
+}
